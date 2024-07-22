@@ -1,0 +1,8 @@
+<configs>
+	<set xpath="//window[@name='windowBackpack']/@height">759</set>
+	<set xpath="//window[@name='windowBackpack']/panel[@name='content']/@height">670</set>
+	<set xpath="//window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">6</set>
+	<set xpath="//window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">10</set>
+	<set xpath="//window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">670</set>
+	<set xpath="//window[@name='windowBackpack']/panel[@name='bottomPanel']/@pos">0,-716</set>
+</configs>
