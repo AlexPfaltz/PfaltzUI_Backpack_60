@@ -1,5 +1,5 @@
-# PfaltzUI_Backpack_60
-Extension for backpack 60 cells in PfaltzUI
+# PfaltzUI_Backpack_63
+Extension for backpack 63 cells in PfaltzUI
 <p align="left">
-  <img src="preview.png" width="350" title="Backpack 60">
+  <img src="preview.png" width="350" title="Backpack 63">
 </p>
