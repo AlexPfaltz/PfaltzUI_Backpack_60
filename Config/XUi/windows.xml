@@ -1,8 +1,14 @@
 <configs>
-	<set xpath="//window[@name='windowBackpack']/@height">759</set>
-	<set xpath="//window[@name='windowBackpack']/panel[@name='content']/@height">670</set>
-	<set xpath="//window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">6</set>
-	<set xpath="//window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">10</set>
-	<set xpath="//window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">670</set>
-	<set xpath="//window[@name='windowBackpack']/panel[@name='bottomPanel']/@pos">0,-716</set>
+	<set xpath="/windows/window[@name='windowBackpack']/@width">528</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">525</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">7</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">9</set>
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/rect[@controller='ContainerStandardControls']/@pos">352,0</set>
+	<remove xpath="/windows/window[@name='windowBackpack']/panel[@name='bottomPanel']"/>
+	<append xpath="/windows/window[@name='windowBackpack']">
+		<panel name="bottomPanel" pos="0,-727" height="43" depth="1" backgroundspritename="ui_game_panel_header">
+			<label depth="2" pos="486,-12" width="200" height="28" text="{currencyamount}" justify="right" pivot="topright"/>
+			<sprite depth="4" name="costIcon" pos="518,-12" size="24,24" sprite="ui_game_symbol_coin" color="[white]" pivot="topright" foregroundlayer="true" />
+		</panel>
+	</append>
 </configs>

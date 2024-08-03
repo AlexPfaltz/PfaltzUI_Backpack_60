@@ -1,8 +1,8 @@
 <xml>
-    <Name value="PfaltzUIBackpack60" />
-    <DisplayName value="PfaltzUI Backpack 60" />
-    <Description value="Changes the size of the backpack to 60 cells." />
+    <Name value="PfaltzUIBackpack63" />
+    <DisplayName value="PfaltzUI Backpack 63" />
+    <Description value="Changes the size of the backpack to 63 cells." />
     <Author value="AlexPfaltz" />
-    <Version value="1.0" />
-    <Website value="https://github.com/AlexPfaltz/PfaltzUI_Backpack_60" />
+    <Version value="1.1" />
+    <Website value="https://github.com/AlexPfaltz/PfaltzUI_Backpack_63" />
 </xml>
